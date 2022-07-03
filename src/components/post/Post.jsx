@@ -18,6 +18,19 @@ export default function Post() {
         </span>
         <span className="postDate">1 jam yang lalu</span>
       </div>
+      <p className="postDesc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+        recusandae ducimus voluptatum illo. Ipsa consequatur similique
+        laudantium fugiat quasi tenetur et in dignissimos rem. Tempora ducimus
+        quasi quia adipisci aspernatur? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Optio recusandae ducimus voluptatum illo. Ipsa
+        consequatur similique laudantium fugiat quasi tenetur et in dignissimos
+        rem. Tempora ducimus quasi quia adipisci aspernatur? Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Optio recusandae ducimus
+        voluptatum illo. Ipsa consequatur similique laudantium fugiat quasi
+        tenetur et in dignissimos rem. Tempora ducimus quasi quia adipisci
+        aspernatur?
+      </p>
     </div>
   );
 }
