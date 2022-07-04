@@ -7,7 +7,7 @@ export default function SinglePost() {
         <img
           src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
           alt=""
-          className="singlePostImage"
+          className="singlePostImg"
         />
         <h1 className="singlePostTitle">
           Lorem, ipsum dolor sit amet
@@ -22,7 +22,7 @@ export default function SinglePost() {
           </span>
           <span className="singlePostDate">1 Hour Ago</span>
         </div>
-        <p>
+        <p className="singlePostDesc">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem non
           error sequi, suscipit dolore quae ipsa libero! Voluptas aut
           exercitationem debitis maxime suscipit cumque placeat corrupti, vel
