@@ -1,12 +1,43 @@
-import "./settings.css";
-import Sidebar from "../../components/sidebar/Sidebar";
+import './settings.css';
+import Sidebar from '../../components/sidebar/Sidebar';
 
 export default function Settings() {
   return (
     <div className="settings">
       <div className="settingsWrapper">
-        <Sidebar />
+        <div className="settingsTitle">
+          <span className="settingUpdateTitle">Update Yout Acount</span>
+          <span className="settingDeleteTitle">Delete Account</span>
+        </div>
+        <form className="settingForm">
+          <label>Profil Picture</label>
+          <div className="settingsPP">
+            <img
+              src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+            />
+            <label htmlFor="fileInput">
+              <i className="settingsPPIcon far fa-user-circle"></i>
+            </label>
+            <input
+              id="fileInput"
+              type="file"
+              style={{ display: 'none' }}
+              className="settingsPPInput"
+            />
+          </div>
+          <label>Username</label>
+          <input type="text" placeholder="lmuhamadaslan" name="name" />
+          <label>Email</label>
+          <input type="email" placeholder="aslan@gmail.com" name="email" />
+          <label>Password</label>
+          <input type="password" placeholder="password" name="password" />
+          <button className="settingsSubmitButtons" type="submit">
+            Update
+          </button>
+        </form>
       </div>
+      <Sidebar />
     </div>
   );
 }
